@@ -110,7 +110,7 @@ Der Code ist in App, Core, Speech und Integration getrennt. Prüfprogramme und T
 
 ## Lizenz
 
-Für den eigenen CraftVoice-Quellcode gilt die im Repository enthaltene [MIT-Lizenz](LICENSE). Der [Lizenzumfang](LICENSE-SCOPE.md) grenzt Drittanbieter und Bildmaterial ab. Drittanbieterbestandteile behalten ihre jeweiligen Lizenzbedingungen. Das Originalicon wurde mit ChatGPTs Bildgenerierung speziell für CraftVoice erstellt und als offizielles App-Icon ausgewählt. Icon und Screenshots sind von der Code-MIT-Lizenz ausgenommen. Herkunft und Nutzungsbedingungen stehen in der [Rechteprüfung](docs/RECHTE.md).
+Für den eigenen CraftVoice-Quellcode gilt die im Repository enthaltene [MIT-Lizenz](LICENSE). Der [Lizenzumfang](LICENSE-SCOPE.md) grenzt Drittanbieter und Bildmaterial ab. Drittanbieterbestandteile behalten ihre jeweiligen Lizenzbedingungen. Icon und Screenshots sind von der Code-MIT-Lizenz ausgenommen. Herkunft und Nutzungsbedingungen stehen in der [Rechteprüfung](docs/RECHTE.md).
 
 ## Danksagungen
 
