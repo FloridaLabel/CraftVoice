@@ -64,8 +64,6 @@ Alternativ lässt sich in CraftVoice ein vollständiger kompatibler Ordner ausw�
 
 ## Installation
 
-### Fertige macOS-App
-
 **[CraftVoice 1.0.0 herunterladen](https://github.com/FloridaLabel/CraftVoice/releases/tag/v1.0.0)** – für Macs mit Apple Silicon und macOS 26 oder neuer.
 
 1. **App installieren:** `CraftVoice-1.0.0-arm64.dmg` herunterladen, öffnen und `CraftVoice.app` in den Ordner **Programme** ziehen.
