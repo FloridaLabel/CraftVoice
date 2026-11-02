@@ -1,0 +1,65 @@
+# Build, Caches und lokale IDE-Zustände
+.build/
+.cache/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Diagnose, lokale Abnahmen, Backups und Distribution
+/checks/
+/dist/
+/backups/
+/diagnostics/
+*.log
+*.crash
+*.ips
+*.app/
+*.dSYM/
+*.dmg
+*.pkg
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Modelle und private Audio-/Datendateien
+/Models/
+/models/
+*.mlmodelc/
+*.mlpackage/
+*.mlmodel
+*.safetensors
+*.gguf
+*.bin
+*.wav
+*.aiff
+*.aif
+*.m4a
+*.mp3
+*.caf
+*.sqlite*
+*.db
+
+# Schlüssel, Zertifikate und lokale Zugangsdaten
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.mobileprovision
+*.provisionprofile
+AuthKey_*.p8
+/secrets/
+/credentials/
+project.local.json
+
+# Private Veröffentlichungsprüfung
+PRIVATE-*

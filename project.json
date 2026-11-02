@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "name": "CraftVoice",
+  "bundle_id": "app.craftvoice.desktop",
+  "executable": "Craft829a37ca",
+  "certificate_name": "Craft Code Signing",
+  "signing_fingerprint": "C357A87EC48947E3C69F9C9925D7EE7FD34A1003"
+}
