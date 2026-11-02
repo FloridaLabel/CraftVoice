@@ -66,7 +66,13 @@ Alternativ lässt sich in CraftVoice ein vollständiger kompatibler Ordner ausw�
 
 ### Fertige macOS-App
 
-Es gibt derzeit keinen öffentlichen App-Download, keinen freigegebenen Installer und keinen GitHub Release. Für eine spätere App-Verteilung ist ein mit Developer ID signiertes und von Apple notarisiertes Apple-Silicon-Build vorgesehen.
+**[CraftVoice 1.0.0 herunterladen](https://github.com/FloridaLabel/CraftVoice/releases/tag/v1.0.0)** – für Macs mit Apple Silicon und macOS 26 oder neuer.
+
+1. **App installieren:** `CraftVoice-1.0.0-arm64.dmg` herunterladen, öffnen und `CraftVoice.app` in den Ordner **Programme** ziehen.
+2. **Sprachmodell einrichten:** Das separate Archiv `CraftVoice-Whisper-large-v3-turbo.zip` von derselben Release-Seite herunterladen und entpacken. In CraftVoice über **„Modellordner ändern …“** den entpackten Ordner `large-v3-turbo` auswählen. Dafür sind weder Python noch Terminal erforderlich.
+3. **Freigaben erteilen:** Mikrofonzugriff und für die automatische Eingabe gegebenenfalls Bedienungshilfen-/Eingabeüberwachungsrechte erlauben.
+
+**Hinweis:** Diese Ausgabe ist nur ad-hoc-signiert und **nicht von Apple notarisiert**. macOS kann den ersten Start deshalb blockieren. Wenn du der offiziellen Downloadquelle vertraust, findest du gegebenenfalls unter **Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen** die Möglichkeit zur Freigabe. Bei einer ausdrücklichen Schadsoftwarewarnung nicht fortfahren. Weitere Hinweise und Prüfsummen stehen auf der [Release-Seite](https://github.com/FloridaLabel/CraftVoice/releases/tag/v1.0.0).
 
 ### Aus dem Quellcode
 
@@ -87,7 +93,7 @@ Beim ersten Build lädt SwiftPM die festgelegten Abhängigkeiten. `./build.sh --
 - Nach möglicherweise erfolgter Eingabe gibt es keinen automatischen zweiten Versuch. „Nicht bestätigt“ ist keine Einfügebestätigung.
 - Das Modell benötigt zusätzlichen Speicher; die erste Vorbereitung kann dauern. Der aktuelle Standard verwendet CPU/GPU.
 - Das Diktatfenster benötigt ausreichend Bildschirmplatz (Mindestformat 900 × 760 pt).
-- Die öffentliche Distribution und die vollständige Prüfung auf weiteren Macs stehen noch aus.
+- Eine fertige, nicht notarisierte App ist als GitHub Release verfügbar; die vollständige Prüfung auf weiteren Macs steht noch aus.
 
 ## Screenshots
 
