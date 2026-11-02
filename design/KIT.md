@@ -1,7 +1,7 @@
 # CraftVoice Design Kit
 Ruhig · präzise · souverän. Eigenständige Oberfläche nach den installierten BAMA design-kit/mac-design-Anleitungen; keine Kopie fremder Screenshots.
 
-## Entwurf vor Umsetzung
+## Aufbau
 Menüleisten-App mit Diktatfenster und drei Einstellungsseiten. Oben kompakte Marke und Offline-Siegel; darunter Zweispaltenkomposition: links Aufnahme mit ruhigem Mikrofon-Orbit und eindeutigem Hauptbutton, rechts großzügiges Transkript. Unten Modell und Kürzel. Einzige dominante Fläche: cyanfarbene Hauptaktion. Violett nur für lokale Verarbeitung und Identität. Native Fensterknöpfe, Menüs, Scrollbars und Einstellungscontrols bleiben erhalten.
 
 ## Tokens

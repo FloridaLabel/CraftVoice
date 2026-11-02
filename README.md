@@ -76,7 +76,7 @@ Im Projektordner lässt sich der Code ohne App-Installation kompilieren:
 ./build.sh --compile-only
 ```
 
-Beim ersten Build lädt SwiftPM die festgelegten Abhängigkeiten. Dieser Schritt erzeugt noch kein signiertes, startfertiges App-Bundle. `./build.sh` ist derzeit an eine private lokale Signieridentität gebunden und für fremde Entwicklungsrechner noch nicht allgemein verwendbar. Ein portabler Build-/Signierweg ist noch nicht vorhanden; private Zertifikate werden nicht mitgeliefert.
+Beim ersten Build lädt SwiftPM die festgelegten Abhängigkeiten. `./build.sh --compile-only` erzeugt nur das Programm. `./build.sh` erstellt zusätzlich ein lokal ad-hoc-signiertes App-Bundle im lokalen macOS-Temporärverzeichnis unter `CraftVoiceDeveloper/<Projektkennung>/bundles/build-*/CraftVoice.app`, ohne persönliches Zertifikat und ohne Installation. Die Ad-hoc-Signatur ist für lokale Entwicklung bestimmt; sie ersetzt keine Developer-ID-Signierung oder Apple-Notarisierung. Details und Grenzen: [Entwickler-Build](docs/ENTWICKLER-BUILD.md).
 
 ## Bekannte Einschränkungen
 
@@ -110,7 +110,7 @@ Der Code ist in App, Core, Speech und Integration getrennt. Prüfprogramme und T
 
 ## Lizenz
 
-Für den eigenen CraftVoice-Quellcode gilt die im Repository enthaltene [MIT-Lizenz](LICENSE). Der [Lizenzumfang](LICENSE-SCOPE.md) grenzt Drittanbieter und Bildmaterial ab. Drittanbieterbestandteile behalten ihre jeweiligen Lizenzbedingungen. Das Originalicon wurde mit ChatGPTs Bildgenerierung speziell für CraftVoice erstellt und als offizielles App-Icon ausgewählt. Es wird nicht pauschal unter MIT gestellt. Weitere Hinweise stehen in der [Rechteprüfung](docs/RECHTE.md).
+Für den eigenen CraftVoice-Quellcode gilt die im Repository enthaltene [MIT-Lizenz](LICENSE). Der [Lizenzumfang](LICENSE-SCOPE.md) grenzt Drittanbieter und Bildmaterial ab. Drittanbieterbestandteile behalten ihre jeweiligen Lizenzbedingungen. Das Originalicon wurde mit ChatGPTs Bildgenerierung speziell für CraftVoice erstellt und als offizielles App-Icon ausgewählt. Icon und Screenshots sind von der Code-MIT-Lizenz ausgenommen. Herkunft und Nutzungsbedingungen stehen in der [Rechteprüfung](docs/RECHTE.md).
 
 ## Danksagungen
 

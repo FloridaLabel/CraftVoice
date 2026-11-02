@@ -1,6 +1,6 @@
 # Drittanbieter und Herkunft
 
-Stand: 2. November 2026. Diese Hinweise dokumentieren Drittanbieterrechte. Die vorbereitete Lizenz des eigenen Codes steht in LICENSE; Abgrenzungen stehen in LICENSE-SCOPE.md.
+Stand: 2. November 2026. Diese Hinweise dokumentieren Drittanbieterrechte. Die Lizenz des eigenen Codes steht in LICENSE; Abgrenzungen stehen in LICENSE-SCOPE.md.
 
 | Bestandteil | Stand | Lizenz / Pflicht |
 | --- | --- | --- |
@@ -17,6 +17,6 @@ BAMA wurde als Entwicklungswerkzeug genutzt und ist keine Laufzeitabhängigkeit.
 
 Apple-Systemframeworks (SwiftUI, AppKit, AVFoundation, Core ML, Carbon, ApplicationServices, WebKit u. a.) werden über das SDK eingebunden; keine separat kopierten Apple-Frameworks oder SF-Symbol-Bilddateien wurden im getrackten Bestand gefunden. Die eigene Lizenz kann Rechte an Apple-SDKs oder Markenzeichen nicht vergeben. Keine weiteren SwiftPM-Pins im vorhandenen Package.resolved; optionale upstream Server-/Pro-Produkte werden nicht vom App-Target eingebunden.
 
-Das originale CraftVoice-Icon wurde nach Erklärung des Projekteigentümers mit ChatGPTs Bildgenerierung speziell für CraftVoice erstellt und von ihm als offizielles App-Icon ausgewählt. Er erlaubt die unveränderte Verwendung für die private Bereitstellung. Das Icon wird nicht pauschal unter die MIT-Lizenz für den eigenen Code gestellt. Die Rechteprüfung und der Lizenzumfang für eine spätere öffentliche Veröffentlichung bleiben offen; siehe docs/RECHTE.md.
+Das originale CraftVoice-Icon wurde nach Erklärung des Projekteigentümers mit ChatGPTs Bildgenerierung speziell für CraftVoice erstellt und als offizielles App-Icon ausgewählt. Icon und Screenshots sind nicht von der eigenen Code-MIT-Lizenz erfasst. Für diese Bilddateien gilt „All rights reserved“, soweit entsprechende Rechte bestehen. Herkunft und Abgrenzung stehen in der [Rechteprüfung](docs/RECHTE.md).
 
 Quellen: [WhisperKit-Lizenz](https://github.com/argmaxinc/WhisperKit/blob/v1.1.1/LICENSE), [WhisperKit-NOTICES](https://github.com/argmaxinc/WhisperKit/blob/v1.1.1/NOTICES), [swift-argument-parser](https://github.com/apple/swift-argument-parser/blob/1.8.2/LICENSE.txt), [BAMA](https://github.com/daveebbelaar/bama/blob/main/LICENSE), [Whisper](https://github.com/openai/whisper/blob/main/LICENSE), [OpenAI-Modellkarte](https://huggingface.co/openai/whisper-large-v3-turbo/tree/41f01f3fe87f28c78e2fbf8b568835947dd65ed9), [Argmax-Modellrepository](https://huggingface.co/argmaxinc/whisperkit-coreml).

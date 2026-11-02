@@ -17,5 +17,5 @@ StudioPanel ist eine opake Inhaltsfläche mit feiner Kontur; kein Glas über Tex
 ## Darstellung und Einstellungen
 Dunkel bleibt bevorzugt, bestehende gespeicherte Erscheinungsbildwahl bleibt erhalten. Heller Modus ist eigenständig. Bestehende Systemeinstellungsoption bleibt erhalten. Kein neuer Accent-Picker und keine Migration von Benutzereinstellungen. Native Fenstertitelleiste, Ampeln, Menüleiste, Formcontrols und Scrollbars bleiben erhalten. Einstellungen passen ihre Höhe den drei Tabs an.
 
-## Abnahme
-Galerie per APP_KIT_GALLERY=1 im Snapshotmodus; echte Fensteraufnahmen mit tools/snapshot-redesign.py. Erfolgs-/Warnzustände, lange Texte, Einstellungen in Hell und Dunkel prüfen. Keine Screenshots fremder Fenster, keine Rechteanforderungen. Protokolle und Grenzen: docs/PREMIUM-REDESIGN.md.
+## Visuelle Prüfung
+Galerie per APP_KIT_GALLERY=1 im Snapshotmodus; echte Fensteraufnahmen mit tools/snapshot-redesign.py. Erfolgs-/Warnzustände, lange Texte, Einstellungen in Hell und Dunkel prüfen. Keine Screenshots fremder Fenster, keine Rechteanforderungen. Die vorhandenen Ansichten zeigen synthetische Diagnosezustände; sie sind kein Nachweis einer realen Aufnahme oder externer Texteingabe. Technische Grenzen stehen in der [Architektur](../docs/ARCHITEKTUR.md).
